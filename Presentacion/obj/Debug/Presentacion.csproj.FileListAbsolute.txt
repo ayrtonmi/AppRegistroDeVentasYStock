@@ -1,0 +1,10 @@
+C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.Form1.resources
+C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.pdb
