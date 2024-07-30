@@ -102,6 +102,7 @@
             this.Controls.Add(this.dgvMercaderia);
             this.Name = "MercaderiaVerTodo";
             this.Text = "VerMercaderia";
+            this.Load += new System.EventHandler(this.MercaderiaVerTodo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMercaderia)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

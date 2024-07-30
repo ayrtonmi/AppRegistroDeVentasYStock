@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Ayrton\\Desktop\\Verduleria\\Verduleria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1D77E73-86AC-44CE-B580-2F3AC760E2EB}|Presentacion\\Presentacion.csproj|c:\\users\\ayrton\\desktop\\verduleria\\verduleria\\presentacion\\ventastodas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A1D77E73-86AC-44CE-B580-2F3AC760E2EB}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\ventastodas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1D77E73-86AC-44CE-B580-2F3AC760E2EB}|Presentacion\\Presentacion.csproj|c:\\users\\ayrton\\desktop\\verduleria\\verduleria\\presentacion\\ventasdia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A1D77E73-86AC-44CE-B580-2F3AC760E2EB}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\ventasdia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1D77E73-86AC-44CE-B580-2F3AC760E2EB}|Presentacion\\Presentacion.csproj|c:\\users\\ayrton\\desktop\\verduleria\\verduleria\\presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1D77E73-86AC-44CE-B580-2F3AC760E2EB}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1D77E73-86AC-44CE-B580-2F3AC760E2EB}|Presentacion\\Presentacion.csproj|c:\\users\\ayrton\\desktop\\verduleria\\verduleria\\presentacion\\ventanaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A1D77E73-86AC-44CE-B580-2F3AC760E2EB}|Presentacion\\Presentacion.csproj|C:\\Users\\Ayrton\\Desktop\\Verduleria\\Verduleria\\presentacion\\ventanaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A1D77E73-86AC-44CE-B580-2F3AC760E2EB}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\ventanaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1501C7A-A859-4E92-BB14-4A4498C9A947}|Dominio\\Dominio.csproj|C:\\Users\\Ayrton\\Desktop\\Verduleria\\Verduleria\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1501C7A-A859-4E92-BB14-4A4498C9A947}|Dominio\\Dominio.csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACA3321-57E9-4E8F-8327-F26A344FE933}|Datos\\Datos.csproj|C:\\Users\\Ayrton\\Desktop\\Verduleria\\Verduleria\\datos\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACA3321-57E9-4E8F-8327-F26A344FE933}|Datos\\Datos.csproj|solutionrelative:datos\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACA3321-57E9-4E8F-8327-F26A344FE933}|Datos\\Datos.csproj|C:\\Users\\Ayrton\\Desktop\\Verduleria\\Verduleria\\datos\\articulodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACA3321-57E9-4E8F-8327-F26A344FE933}|Datos\\Datos.csproj|solutionrelative:datos\\articulodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 65,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,49 +37,47 @@
               "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VentasTodas.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Ayrton\\Desktop\\Verduleria\\Verduleria\\Presentacion\\VentasTodas.cs",
-              "RelativeDocumentMoniker": "Presentacion\\VentasTodas.cs",
-              "ToolTip": "C:\\Users\\Ayrton\\Desktop\\Verduleria\\Verduleria\\Presentacion\\VentasTodas.cs [Design]",
-              "RelativeToolTip": "Presentacion\\VentasTodas.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "ArticuloDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Ayrton\\Desktop\\Verduleria\\Verduleria\\Datos\\ArticuloDatos.cs",
+              "RelativeDocumentMoniker": "Datos\\ArticuloDatos.cs",
+              "ToolTip": "C:\\Users\\Ayrton\\Desktop\\Verduleria\\Verduleria\\Datos\\ArticuloDatos.cs",
+              "RelativeToolTip": "Datos\\ArticuloDatos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T00:35:21.358Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VentasDia.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Ayrton\\Desktop\\Verduleria\\Verduleria\\Presentacion\\VentasDia.cs",
-              "RelativeDocumentMoniker": "Presentacion\\VentasDia.cs",
-              "ToolTip": "C:\\Users\\Ayrton\\Desktop\\Verduleria\\Verduleria\\Presentacion\\VentasDia.cs [Design]",
-              "RelativeToolTip": "Presentacion\\VentasDia.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T00:34:33.142Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ayrton\\Desktop\\Verduleria\\Verduleria\\Presentacion\\Program.cs",
-              "RelativeDocumentMoniker": "Presentacion\\Program.cs",
-              "ToolTip": "C:\\Users\\Ayrton\\Desktop\\Verduleria\\Verduleria\\Presentacion\\Program.cs",
-              "RelativeToolTip": "Presentacion\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T00:32:34.465Z",
+              "WhenOpened": "2024-07-30T13:11:47.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "ConexionDB.cs",
+              "DocumentMoniker": "C:\\Users\\Ayrton\\Desktop\\Verduleria\\Verduleria\\Datos\\ConexionDB.cs",
+              "RelativeDocumentMoniker": "Datos\\ConexionDB.cs",
+              "ToolTip": "C:\\Users\\Ayrton\\Desktop\\Verduleria\\Verduleria\\Datos\\ConexionDB.cs",
+              "RelativeToolTip": "Datos\\ConexionDB.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowAYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T12:42:41.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\Ayrton\\Desktop\\Verduleria\\Verduleria\\Dominio\\Articulo.cs",
+              "RelativeDocumentMoniker": "Dominio\\Articulo.cs",
+              "ToolTip": "C:\\Users\\Ayrton\\Desktop\\Verduleria\\Verduleria\\Dominio\\Articulo.cs",
+              "RelativeToolTip": "Dominio\\Articulo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T12:38:58.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "VentanaPrincipal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Ayrton\\Desktop\\Verduleria\\Verduleria\\Presentacion\\VentanaPrincipal.cs",
               "RelativeDocumentMoniker": "Presentacion\\VentanaPrincipal.cs",

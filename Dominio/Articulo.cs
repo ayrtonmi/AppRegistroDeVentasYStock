@@ -11,6 +11,6 @@ namespace Datos
         public int Id { get; set; }
         public string Nombre { get; set; }
         public decimal Precio { get; set; }
-        public float Cantidad { get; set; } //En gramos
+        public float Cantidad { get; set; } //En kilos
     }
 }

@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Dominio;
+using Datos;
 
 namespace Presentacion
 {
@@ -20,6 +22,13 @@ namespace Presentacion
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void MercaderiaVerTodo_Load(object sender, EventArgs e)
+        {
+           ArticuloDatos datosArt = new ArticuloDatos();
+           
+           dgvMercaderia.DataSource =  datosArt.listar();
         }
     }
 }
