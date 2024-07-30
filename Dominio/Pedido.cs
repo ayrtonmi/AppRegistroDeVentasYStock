@@ -9,8 +9,7 @@ namespace Dominio
 {
     public class Pedido
     {
-        public int Id { get; set; }
-        public DateTime Fecha { get; set; }
+        
         public List<Articulo> Articulos { get; set; }
         public decimal Total { get; set; }
 

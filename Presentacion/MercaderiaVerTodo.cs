@@ -10,13 +10,16 @@ using System.Windows.Forms;
 
 namespace Presentacion
 {
-    public partial class Form1 : Form
+    public partial class MercaderiaVerTodo : Form
     {
-        public Form1()
+        public MercaderiaVerTodo()
         {
             InitializeComponent();
         }
 
-        
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

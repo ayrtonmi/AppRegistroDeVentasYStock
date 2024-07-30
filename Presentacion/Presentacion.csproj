@@ -46,16 +46,67 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="MercaderiaAgregar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="MercaderiaAgregar.Designer.cs">
+      <DependentUpon>MercaderiaAgregar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarPromo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarPromo.Designer.cs">
+      <DependentUpon>AgregarPromo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MercaderiaEliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MercaderiaEliminar.Designer.cs">
+      <DependentUpon>MercaderiaEliminar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaPrincipal.Designer.cs">
+      <DependentUpon>VentanaPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="VentasDia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentasDia.Designer.cs">
+      <DependentUpon>VentasDia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentasMes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentasMes.Designer.cs">
+      <DependentUpon>VentasMes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentasTodas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentasTodas.Designer.cs">
+      <DependentUpon>VentasTodas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MercaderiaVerTodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MercaderiaVerTodo.Designer.cs">
+      <DependentUpon>MercaderiaVerTodo.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AgregarPromo.resx">
+      <DependentUpon>AgregarPromo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MercaderiaAgregar.resx">
+      <DependentUpon>MercaderiaAgregar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MercaderiaEliminar.resx">
+      <DependentUpon>MercaderiaEliminar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaPrincipal.resx">
+      <DependentUpon>VentanaPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +117,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="MercaderiaVerTodo.resx">
+      <DependentUpon>MercaderiaVerTodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentasDia.resx">
+      <DependentUpon>VentasDia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentasMes.resx">
+      <DependentUpon>VentasMes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentasTodas.resx">
+      <DependentUpon>VentasTodas.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

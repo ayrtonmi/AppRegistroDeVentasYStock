@@ -1,6 +1,6 @@
 ﻿namespace Presentacion
 {
-    partial class Form1
+    partial class VentanaPrincipal
     {
         /// <summary>
         /// Required designer variable.
@@ -51,20 +51,25 @@
             this.verTodasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.lblCarrito = new System.Windows.Forms.Label();
-            this.lblTotal1 = new System.Windows.Forms.Label();
-            this.lblTotal2 = new System.Windows.Forms.Label();
             this.lblSubtotal1 = new System.Windows.Forms.Label();
             this.lblSubTotal2 = new System.Windows.Forms.Label();
             this.cbxArticulos = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnPromocion = new System.Windows.Forms.Button();
+            this.groupBoxPromo = new System.Windows.Forms.GroupBox();
+            this.lblTotal2 = new System.Windows.Forms.Label();
+            this.lblTotal1 = new System.Windows.Forms.Label();
+            this.groupBoxTotal = new System.Windows.Forms.GroupBox();
             this.contextMenuStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            this.groupBoxPromo.SuspendLayout();
+            this.groupBoxTotal.SuspendLayout();
             this.SuspendLayout();
             // 
             // listPedido
             // 
             this.listPedido.HideSelection = false;
-            this.listPedido.Location = new System.Drawing.Point(515, 88);
+            this.listPedido.Location = new System.Drawing.Point(522, 91);
             this.listPedido.Name = "listPedido";
             this.listPedido.Size = new System.Drawing.Size(270, 284);
             this.listPedido.TabIndex = 0;
@@ -82,7 +87,7 @@
             // lblPrecio
             // 
             this.lblPrecio.AutoSize = true;
-            this.lblPrecio.Location = new System.Drawing.Point(30, 149);
+            this.lblPrecio.Location = new System.Drawing.Point(30, 148);
             this.lblPrecio.Name = "lblPrecio";
             this.lblPrecio.Size = new System.Drawing.Size(40, 13);
             this.lblPrecio.TabIndex = 3;
@@ -99,23 +104,25 @@
             // 
             // txtCantidad
             // 
-            this.txtCantidad.Location = new System.Drawing.Point(82, 202);
+            this.txtCantidad.Location = new System.Drawing.Point(82, 201);
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(156, 20);
             this.txtCantidad.TabIndex = 6;
             // 
             // btnAgregarPedido
             // 
-            this.btnAgregarPedido.Location = new System.Drawing.Point(350, 69);
+            this.btnAgregarPedido.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAgregarPedido.Location = new System.Drawing.Point(316, 88);
             this.btnAgregarPedido.Name = "btnAgregarPedido";
             this.btnAgregarPedido.Size = new System.Drawing.Size(112, 78);
             this.btnAgregarPedido.TabIndex = 7;
-            this.btnAgregarPedido.Text = "Agregar a la compra";
+            this.btnAgregarPedido.Text = "Agregar al carrito";
             this.btnAgregarPedido.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(350, 183);
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Location = new System.Drawing.Point(316, 304);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 78);
             this.button1.TabIndex = 8;
@@ -150,7 +157,7 @@
             this.ventasToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1045, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1046, 24);
             this.menuStrip1.TabIndex = 10;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -168,26 +175,30 @@
             // modificarToolStripMenuItem
             // 
             this.modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
-            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.modificarToolStripMenuItem.Text = "Agregar";
+            this.modificarToolStripMenuItem.Click += new System.EventHandler(this.modificarToolStripMenuItem_Click);
             // 
             // modificarArtículoToolStripMenuItem
             // 
             this.modificarArtículoToolStripMenuItem.Name = "modificarArtículoToolStripMenuItem";
-            this.modificarArtículoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.modificarArtículoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.modificarArtículoToolStripMenuItem.Text = "Modificar";
+            this.modificarArtículoToolStripMenuItem.Click += new System.EventHandler(this.modificarArtículoToolStripMenuItem_Click);
             // 
             // eliminarArtículoToolStripMenuItem
             // 
             this.eliminarArtículoToolStripMenuItem.Name = "eliminarArtículoToolStripMenuItem";
-            this.eliminarArtículoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.eliminarArtículoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.eliminarArtículoToolStripMenuItem.Text = "Eliminar";
+            this.eliminarArtículoToolStripMenuItem.Click += new System.EventHandler(this.eliminarArtículoToolStripMenuItem_Click);
             // 
             // verMercaderíaToolStripMenuItem
             // 
             this.verMercaderíaToolStripMenuItem.Name = "verMercaderíaToolStripMenuItem";
-            this.verMercaderíaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.verMercaderíaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.verMercaderíaToolStripMenuItem.Text = "Ver mercadería";
+            this.verMercaderíaToolStripMenuItem.Click += new System.EventHandler(this.verMercaderíaToolStripMenuItem_Click);
             // 
             // ventasToolStripMenuItem1
             // 
@@ -204,60 +215,46 @@
             this.verVentasDeHoyToolStripMenuItem.Name = "verVentasDeHoyToolStripMenuItem";
             this.verVentasDeHoyToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.verVentasDeHoyToolStripMenuItem.Text = "Ver ventas de hoy";
+            this.verVentasDeHoyToolStripMenuItem.Click += new System.EventHandler(this.verVentasDeHoyToolStripMenuItem_Click);
             // 
             // verVentasDelMesToolStripMenuItem
             // 
             this.verVentasDelMesToolStripMenuItem.Name = "verVentasDelMesToolStripMenuItem";
             this.verVentasDelMesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.verVentasDelMesToolStripMenuItem.Text = "Ver ventas del mes";
+            this.verVentasDelMesToolStripMenuItem.Click += new System.EventHandler(this.verVentasDelMesToolStripMenuItem_Click);
             // 
             // verTodasToolStripMenuItem
             // 
             this.verTodasToolStripMenuItem.Name = "verTodasToolStripMenuItem";
             this.verTodasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.verTodasToolStripMenuItem.Text = "Ver todas las ventas";
+            this.verTodasToolStripMenuItem.Click += new System.EventHandler(this.verTodasToolStripMenuItem_Click);
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(350, 294);
+            this.btnCancelar.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCancelar.Location = new System.Drawing.Point(316, 412);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(112, 78);
             this.btnCancelar.TabIndex = 11;
             this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.UseVisualStyleBackColor = false;
             // 
             // lblCarrito
             // 
             this.lblCarrito.AutoSize = true;
-            this.lblCarrito.Location = new System.Drawing.Point(515, 69);
+            this.lblCarrito.Location = new System.Drawing.Point(522, 72);
             this.lblCarrito.Name = "lblCarrito";
             this.lblCarrito.Size = new System.Drawing.Size(76, 13);
             this.lblCarrito.TabIndex = 12;
             this.lblCarrito.Text = "EN CARRITO:";
             // 
-            // lblTotal1
-            // 
-            this.lblTotal1.AutoSize = true;
-            this.lblTotal1.Location = new System.Drawing.Point(791, 209);
-            this.lblTotal1.Name = "lblTotal1";
-            this.lblTotal1.Size = new System.Drawing.Size(45, 13);
-            this.lblTotal1.TabIndex = 13;
-            this.lblTotal1.Text = "TOTAL:";
-            // 
-            // lblTotal2
-            // 
-            this.lblTotal2.AutoSize = true;
-            this.lblTotal2.BackColor = System.Drawing.SystemColors.Highlight;
-            this.lblTotal2.Location = new System.Drawing.Point(842, 209);
-            this.lblTotal2.Name = "lblTotal2";
-            this.lblTotal2.Size = new System.Drawing.Size(10, 13);
-            this.lblTotal2.TabIndex = 14;
-            this.lblTotal2.Text = " ";
-            // 
             // lblSubtotal1
             // 
             this.lblSubtotal1.AutoSize = true;
-            this.lblSubtotal1.Location = new System.Drawing.Point(82, 247);
+            this.lblSubtotal1.Location = new System.Drawing.Point(6, 38);
             this.lblSubtotal1.Name = "lblSubtotal1";
             this.lblSubtotal1.Size = new System.Drawing.Size(67, 13);
             this.lblSubtotal1.TabIndex = 15;
@@ -267,7 +264,7 @@
             // 
             this.lblSubTotal2.AutoSize = true;
             this.lblSubTotal2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.lblSubTotal2.Location = new System.Drawing.Point(155, 247);
+            this.lblSubTotal2.Location = new System.Drawing.Point(79, 38);
             this.lblSubTotal2.Name = "lblSubTotal2";
             this.lblSubTotal2.Size = new System.Drawing.Size(10, 13);
             this.lblSubTotal2.TabIndex = 16;
@@ -283,21 +280,72 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(82, 146);
+            this.textBox1.Location = new System.Drawing.Point(82, 145);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(156, 20);
             this.textBox1.TabIndex = 4;
             // 
-            // Form1
+            // btnPromocion
+            // 
+            this.btnPromocion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPromocion.Location = new System.Drawing.Point(316, 196);
+            this.btnPromocion.Name = "btnPromocion";
+            this.btnPromocion.Size = new System.Drawing.Size(112, 78);
+            this.btnPromocion.TabIndex = 18;
+            this.btnPromocion.Text = "Agregar promoción al carrito";
+            this.btnPromocion.UseVisualStyleBackColor = true;
+            this.btnPromocion.Click += new System.EventHandler(this.btnPromocion_Click);
+            // 
+            // groupBoxPromo
+            // 
+            this.groupBoxPromo.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBoxPromo.Controls.Add(this.lblSubtotal1);
+            this.groupBoxPromo.Controls.Add(this.lblSubTotal2);
+            this.groupBoxPromo.Location = new System.Drawing.Point(21, 259);
+            this.groupBoxPromo.Name = "groupBoxPromo";
+            this.groupBoxPromo.Size = new System.Drawing.Size(217, 91);
+            this.groupBoxPromo.TabIndex = 19;
+            this.groupBoxPromo.TabStop = false;
+            // 
+            // lblTotal2
+            // 
+            this.lblTotal2.AutoSize = true;
+            this.lblTotal2.BackColor = System.Drawing.SystemColors.Highlight;
+            this.lblTotal2.Location = new System.Drawing.Point(57, 49);
+            this.lblTotal2.Name = "lblTotal2";
+            this.lblTotal2.Size = new System.Drawing.Size(10, 13);
+            this.lblTotal2.TabIndex = 14;
+            this.lblTotal2.Text = " ";
+            // 
+            // lblTotal1
+            // 
+            this.lblTotal1.AutoSize = true;
+            this.lblTotal1.Location = new System.Drawing.Point(6, 49);
+            this.lblTotal1.Name = "lblTotal1";
+            this.lblTotal1.Size = new System.Drawing.Size(45, 13);
+            this.lblTotal1.TabIndex = 13;
+            this.lblTotal1.Text = "TOTAL:";
+            // 
+            // groupBoxTotal
+            // 
+            this.groupBoxTotal.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBoxTotal.Controls.Add(this.lblTotal1);
+            this.groupBoxTotal.Controls.Add(this.lblTotal2);
+            this.groupBoxTotal.Location = new System.Drawing.Point(817, 107);
+            this.groupBoxTotal.Name = "groupBoxTotal";
+            this.groupBoxTotal.Size = new System.Drawing.Size(200, 95);
+            this.groupBoxTotal.TabIndex = 20;
+            this.groupBoxTotal.TabStop = false;
+            // 
+            // VentanaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1045, 513);
+            this.ClientSize = new System.Drawing.Size(1046, 512);
+            this.Controls.Add(this.groupBoxTotal);
+            this.Controls.Add(this.groupBoxPromo);
+            this.Controls.Add(this.btnPromocion);
             this.Controls.Add(this.cbxArticulos);
-            this.Controls.Add(this.lblSubTotal2);
-            this.Controls.Add(this.lblSubtotal1);
-            this.Controls.Add(this.lblTotal2);
-            this.Controls.Add(this.lblTotal1);
             this.Controls.Add(this.lblCarrito);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.menuStrip1);
@@ -310,11 +358,15 @@
             this.Controls.Add(this.lblPrecio);
             this.Controls.Add(this.lblArticulo);
             this.Controls.Add(this.listPedido);
-            this.Name = "Form1";
+            this.Name = "VentanaPrincipal";
             this.Text = "VENTAS";
             this.contextMenuStrip1.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.groupBoxPromo.ResumeLayout(false);
+            this.groupBoxPromo.PerformLayout();
+            this.groupBoxTotal.ResumeLayout(false);
+            this.groupBoxTotal.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -335,8 +387,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Label lblCarrito;
-        private System.Windows.Forms.Label lblTotal1;
-        private System.Windows.Forms.Label lblTotal2;
         private System.Windows.Forms.ToolStripMenuItem preciosToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem modificarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ventasToolStripMenuItem1;
@@ -350,6 +400,11 @@
         private System.Windows.Forms.Label lblSubTotal2;
         private System.Windows.Forms.ComboBox cbxArticulos;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnPromocion;
+        private System.Windows.Forms.GroupBox groupBoxPromo;
+        private System.Windows.Forms.Label lblTotal2;
+        private System.Windows.Forms.Label lblTotal1;
+        private System.Windows.Forms.GroupBox groupBoxTotal;
     }
 }
 

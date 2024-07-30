@@ -2,9 +2,16 @@ C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\bin\Debug\Presentacio
 C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\bin\Debug\Presentacion.exe
 C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\bin\Debug\Presentacion.pdb
 C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
-C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.Form1.resources
 C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
 C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
 C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
 C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.VentanaPrincipal.resources
+C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.MercaderiaAgregar.resources
+C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.MercaderiaEliminar.resources
+C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.MercaderiaVerTodo.resources
+C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.VentasDia.resources
+C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.VentasMes.resources
+C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.VentasTodas.resources
+C:\Users\Ayrton\Desktop\Verduleria\Verduleria\Presentacion\obj\Debug\Presentacion.AgregarPromo.resources
